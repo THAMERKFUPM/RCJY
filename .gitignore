@@ -8,3 +8,4 @@ obj/
 *.log
 *.tmp
 *.pdb
+.DS_Store
