@@ -26,7 +26,7 @@ public class HumanResourcesController : Controller
         _mapper = mapper;
     }
 
-    public async Task<IActionResult> Dashboard(string searchTerm = "")
+    /*public async Task<IActionResult> Dashboard(string searchTerm = "")
     {
         var list = (await _trepo.GetAllAsync()).ToList();
         if (!string.IsNullOrWhiteSpace(searchTerm))
@@ -44,7 +44,13 @@ public class HumanResourcesController : Controller
         };
         return View(vm);
     }
-   
+   */
+    
+    public IActionResult Dashboard()
+    {
+        return View(); 
+    }
+    
     [HttpGet]
     public async Task<IActionResult> Transfer()
     {
