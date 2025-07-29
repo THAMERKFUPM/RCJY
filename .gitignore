@@ -1,4 +1,6 @@
 .vs/
+<<<<<<< HEAD
+=======
 bin/
 obj/
 .vs/
@@ -8,4 +10,4 @@ obj/
 *.log
 *.tmp
 *.pdb
-.DS_Store
+>>>>>>> 1bfd4158136d1dfb77522d47ab4e5fe1576ea587
